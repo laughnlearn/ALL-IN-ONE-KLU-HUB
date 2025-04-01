@@ -153,6 +153,7 @@ img {
     border: 2px solid transparent;
     box-shadow: 0 5px 15px var(--shadow-color);
 }
+
 .community-button {
     margin-top: 15px;
     text-align: center;
@@ -171,6 +172,12 @@ img {
 
 .join-button:hover {
     background-color: #128C7E;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
 }
 
 .news-container {
