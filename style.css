@@ -172,3 +172,36 @@ img {
 .join-button:hover {
     background-color: #128C7E;
 }
+
+.news-container {
+    background: #f30a0a;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.news-scroll {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 30s linear infinite;
+}
+
+.news-scroll p {
+    display: inline-block;
+    color: white;
+    margin: 0;
+    padding-left: 100%;
+    font-size: 16px;
+}
+
+@keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.news-scroll p:hover {
+    animation-play-state: paused;
+}
