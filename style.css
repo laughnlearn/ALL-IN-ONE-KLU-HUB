@@ -174,7 +174,6 @@ img {
     margin-bottom: 40px;
     position: relative;
 }
-
 .news-container {
     background: #f30a0a;
     padding: 10px 0;
@@ -183,32 +182,32 @@ img {
     position: sticky;
     top: 0;
     z-index: 1000;
+    width: 100%;
 }
 
 .news-scroll {
-    display: inline-block;
+    display: flex;
     white-space: nowrap;
-    animation: scroll-left 10s linear infinite;
+    width: 100%;
 }
 
 .news-scroll p {
     display: inline-block;
     color: white;
     margin: 0;
-    padding-left: 100%;
+    padding-right: 50px;
     font-size: 16px;
+    animation: scroll-left 30s linear infinite;
 }
 
 @keyframes scroll-left {
-    0% { transform: translateX(0); }
+    0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
 }
 
 .news-scroll p:hover {
     animation-play-state: paused;
 }
-
-
 
 
 .game-sidebar {
