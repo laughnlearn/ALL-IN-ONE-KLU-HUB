@@ -95,7 +95,7 @@ img {
 }
 
 .footer-text {
-    color: #666;
+    color: #000000;
     font-size: 14px;
 }
 
@@ -249,6 +249,10 @@ img {
 
 
 
+
+
+
+
 .ai-sidebar {
     position: fixed;
     right: 20px;
@@ -383,4 +387,42 @@ h2 {
     letter-spacing: -0.5px;
     position: relative;
     z-index: 1;
+}
+
+
+
+
+
+
+.announcement-box {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    width: 300px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--primary-color);
+    z-index: 2;
+}
+
+.announcement-box p {
+    color: var(--primary-color);
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.lost-found-link {
+    display: inline-block;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.lost-found-link:hover {
+    text-decoration: underline;
 }
