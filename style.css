@@ -455,41 +455,12 @@ h2 {
     }
 
     .header-logo, .whatsapp-logo {
-        order: 6;  /* Changed from 5 to 6 to make it appear last */
-        position: static;
-        width: 80px;
-        height: 80px;
-        margin: 0 auto 15px;
-    }
-
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .grid-container {
-        order: 1;
-    }
-
-    .game-sidebar {
-        order: 2;
-    }
-
-    .ai-sidebar {
-        order: 3;
-    }
-
-    .news-container {
-        order: 4;
+        display: none;  /* Hide logos in mobile view */
     }
 
     .title-container {
         order: 5;
+        padding: 0;  /* Remove padding since logos are hidden */
     }
     
     .announcement-box {
